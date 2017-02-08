@@ -48,6 +48,18 @@ Haskell — это чистый функциональный язык прогр
 
 Ждите, скоро будут!
 
+### Оценка
+
+Оценка по практикуму зависит от набранного за семестр суммарного количества баллов.
+Баллы начисляются за:
+
+- работу в семестре на семинарах;
+- выполнение практического задания на Лиспе;
+- выполнение практического задания на Haskell.
+
+Все результаты будут внесены в таблицу
+[<i class="fa fa-lg fa-table"></i> Лисп и Haskell 2017](https://docs.google.com/spreadsheets/d/1uvXnqGwpSHLpRe5zZwvSFipsWZkbvU9HE3U6E-vTjH4/edit?usp=sharing).
+
 ### Контакты
 
 Вопросы по лекциям?
@@ -58,7 +70,7 @@ Haskell — это чистый функциональный язык прогр
 Общие группы:
 
 - [<i class="fa fa-lg fa-envelope"></i> cmc-haskell-2017@googlegroups.com](https://groups.google.com/d/forum/cmc-haskell-2017) — список рассылки курса;
-- [<i class="fa fa-lg fa-telegram"></i> Группа в Telegram](https://t.me/joinchat/AAAAAAz6vbLO35c7VmG7pQ);
+- [<i class="fa fa-lg fa-telegram"></i> Haskell 2017](https://t.me/joinchat/AAAAAAz6vbLO35c7VmG7pQ) — группа в Telegram;
 - [<i class="fa fa-lg fa-github"></i> cmc-haskell-2017](https://github.com/cmc-haskell-2017) — материалы курса и практические задания.
 
 Контакты преподавателя:
