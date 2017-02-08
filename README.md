@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-You can use the [editor on GitHub](https://github.com/cmc-haskell-2017/cmc-haskell-2017.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Программирование на языке Haskell
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Потому что это круто!
 
-### Markdown
+### Лекции
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Все лекции доступны для просмотра на YouTube:
 
-```markdown
-Syntax highlighted code block
+- Лекция 1
+    1. [<i class="fa fa-lg fa-youtube-play"></i> Функции высшего порядка. Функция `map`.](https://cmc-haskell-2017.github.io)
+    2. Свойства параметрического полиморфизма.
+- Лекция 2
+    1. Ленивый порядок вычислений.
+    2. Свёртки списков.
+- Лекция 3
+    1. Функторы. Контейнерные типы.
+    2. ?
+- Лекция 4
+    1. Моноиды.
+    2. Обобщённые свёртки.
+- Лекция 5
+    1. Аппликативные функторы. Обработка ошибок.
+    2. Аппликативные функторы. Генерация случайных чисел.
+    3. Аппликативные функторы. Парсеры.
+- Лекция 6
+- Лекция 7
+- Лекция 8
+- Лекция 9
+- Лекция 10
 
-# Header 1
-## Header 2
-### Header 3
+### Практические задания
 
-- Bulleted
-- List
+Ждите, скоро будут!
 
-1. Numbered
-2. List
+### Контакты
 
-**Bold** and _Italic_ and `Code` text
+Вопросы по лекциям? Проблема с выполнением практического задания? Пишите!
 
-[Link](url) and ![Image](src)
-```
+Общие группы:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- [<i class="fa fa-lg fa-envelope"></i> mail@example.com]() — список рассылки курса;
+- [<i class="fa fa-lg fa-telegram"></i> Группа в Telegram](https://t.me/joinchat/AAAAAAz6vbLO35c7VmG7pQ);
+- [<i class="fa fa-lg fa-github"></i> cmc-haskell-2017](https://github.com/cmc-haskell-2017) — материалы курса и практические задания.
 
-### Jekyll Themes
+Контакты преподавателя:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cmc-haskell-2017/cmc-haskell-2017.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- [<i class="fa fa-lg fa-envelope"></i> nickolay.kudasov@gmail.com](mailto:nickolay.kudasov@gmail.com);
+- [<i class="fa fa-lg fa-telegram"></i> fizruk31337](http://t.me/fizruk31337);
+- [<i class="fa fa-lg fa-github"></i> fizruk](https://github.com/fizruk).
