@@ -8,41 +8,15 @@ Haskell — это чистый функциональный язык прогр
 
 ### Лекции
 
-Все лекции доступны для просмотра на YouTube:
+Все лекции доступны для просмотра [на YouTube](https://www.youtube.com/playlist?list=PLov3NSwpY86cfkfXyVroSZkHemxoAdnrd):
 
 - Лекция 1
-    1. [<i class="fa fa-lg fa-youtube-play"></i> Функции высшего порядка. Функция `map`.](https://cmc-haskell-2017.github.io)
+    1. [<i class="fa fa-lg fa-youtube-play"></i> Функции высшего порядка. Функция `map`.](https://youtu.be/O6FTqv2aPSg)
     2. <i class="fa fa-lg fa-lock"></i> Свойства параметрического полиморфизма.
 - Лекция 2
     1. <i class="fa fa-lg fa-lock"></i> Ленивый порядок вычислений.
     2. <i class="fa fa-lg fa-lock"></i> Свёртки списков.
-- Лекция 3
-    1. <i class="fa fa-lg fa-lock"></i> Функторы.
-    2. <i class="fa fa-lg fa-lock"></i> —
-- Лекция 4
-    1. <i class="fa fa-lg fa-lock"></i> Моноиды.
-    2. <i class="fa fa-lg fa-lock"></i> Обобщённые свёртки.
-- Лекция 5
-    1. <i class="fa fa-lg fa-lock"></i> Методы решения задач.
-    2. <i class="fa fa-lg fa-lock"></i> —
-- Лекция 5
-    1. <i class="fa fa-lg fa-lock"></i> Аппликативные функторы. Обработка ошибок.
-    2. <i class="fa fa-lg fa-lock"></i> Аппликативные функторы. Генерация случайных чисел.
-- Лекция 6
-    1. <i class="fa fa-lg fa-lock"></i> Аппликативные функторы. Парсеры.
-    2. <i class="fa fa-lg fa-lock"></i> —
-- Лекция 7
-    1. <i class="fa fa-lg fa-lock"></i> —
-    2. <i class="fa fa-lg fa-lock"></i> —
-- Лекция 8
-    1. <i class="fa fa-lg fa-lock"></i> —
-    2. <i class="fa fa-lg fa-lock"></i> —
-- Лекция 9
-    1. <i class="fa fa-lg fa-lock"></i> —
-    2. <i class="fa fa-lg fa-lock"></i> —
-- Лекция 10
-    1. <i class="fa fa-lg fa-lock"></i> —
-    2. <i class="fa fa-lg fa-lock"></i> —
+- Новые лекции уже на подходе!
 
 ### Практические задания
 
