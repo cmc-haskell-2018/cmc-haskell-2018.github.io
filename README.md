@@ -12,7 +12,7 @@ Haskell — это чистый функциональный язык прогр
 
 - Лекция 1
     1. [<i class="fa fa-lg fa-youtube-play"></i> Функции высшего порядка. Функция `map`.](https://youtu.be/O6FTqv2aPSg)
-    2. <i class="fa fa-lg fa-lock"></i> Свойства параметрического полиморфизма.
+    2. [<i class="fa fa-lg fa-youtube-play"></i> Свойства полиморфных функций.](https://youtu.be/41x5ZihxpOI)
 - Лекция 2
     1. <i class="fa fa-lg fa-lock"></i> Ленивый порядок вычислений.
     2. <i class="fa fa-lg fa-lock"></i> Свёртки списков.
@@ -54,7 +54,7 @@ Haskell — это чистый функциональный язык прогр
 Общие группы:
 
 - [<i class="fa fa-lg fa-envelope"></i> cmc-haskell-2017@googlegroups.com](https://groups.google.com/d/forum/cmc-haskell-2017) — список рассылки курса;
-- [<i class="fa fa-lg fa-telegram"></i> Haskell 2017](https://t.me/joinchat/AAAAAAz6vbLO35c7VmG7pQ) — группа в Telegram;
+- [<i class="fa fa-lg fa-telegram"></i> Haskell 2017](https://telegram.me/joinchat/AAAAAAz6vbLO35c7VmG7pQ) — группа в Telegram;
 - [<i class="fa fa-lg fa-github"></i> cmc-haskell-2017](https://github.com/cmc-haskell-2017) — материалы курса и практические задания.
 
 Контакты преподавателя:
