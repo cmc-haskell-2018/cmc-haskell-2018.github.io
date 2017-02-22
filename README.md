@@ -44,6 +44,46 @@ Haskell — это чистый функциональный язык прогр
 Все результаты будут внесены в таблицу
 [<i class="fa fa-lg fa-table"></i> Лисп и Haskell 2017](https://docs.google.com/spreadsheets/d/1uvXnqGwpSHLpRe5zZwvSFipsWZkbvU9HE3U6E-vTjH4/edit?usp=sharing).
 
+### Haskell Platform
+
+Для работы с Haskell в этом семестре рекомендуется [установить Haskell Platform](https://www.haskell.org/platform/) с официального сайта языка.
+На сайте есть инструкции по установке для каждой платформы (Linux, macOS, Windows). Haskell Platform содержит следующие инструменты:
+
+- компилятор GHC;
+- система сборки Cabal;
+- [утилита Stack](http://docs.haskellstack.org/) для разработки проектов;
+- стандартные и часто-используемые библиотеки.
+
+#### Интерпретатор GHCi
+
+Для работы с небольшими программами рекомендуется использовать интерпретатор GHCi.
+Чтобы запустить его наберите команду `ghci`. Здесь вы можете определять функции, типы и играться с данными:
+
+```
+>>> type Offset = Float
+>>> let offsets = [0, 200 ..]
+>>> take 10 offsets
+[0,200,400,600,800,1000,1200,1400,1600,1800]
+>>> :t take
+take :: Int -> [a] -> [a]
+```
+
+Чтобы загрузить типы и функции из файла, используйте команду `:load`:
+
+```
+>>> :load /path/to/your/file.hs
+```
+
+Если вы работаете с проектом Stack, используйте `stack ghci` из корня проекта, чтобы автоматически
+подгрузить все модули этого проекта. Например, для проекта [`demo-galaxies`](https://github.com/cmc-haskell-2017/demo-galaxies):
+
+```
+cd demo-galaxies
+stack ghci
+>>> massCenter [Particle 1 (0, 0) (0, 0), Particle 2 (3, 3) (0, 0)]
+(2.0,2.0)
+```
+
 ### Контакты
 
 Вопросы по лекциям?
