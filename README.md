@@ -14,8 +14,8 @@ Haskell — это чистый функциональный язык прогр
     1. [<i class="fa fa-lg fa-youtube-play"></i> Функции высшего порядка. Функция `map`.](https://youtu.be/jNQVa5INdDk)
     2. [<i class="fa fa-lg fa-youtube-play"></i> Свойства полиморфных функций.](https://youtu.be/41x5ZihxpOI)
 - Лекция 2
-    1. [<i class="fa fa-lg fa-youtube-play"></i> Ленивые вычисления](https://youtu.be/MUfncxhDZK0).
-    2. <i class="fa fa-lg fa-lock"></i> Функции над списками. Свёртки.
+    1. [<i class="fa fa-lg fa-youtube-play"></i> Ленивые вычисления.](https://youtu.be/MUfncxhDZK0)
+    1. [<i class="fa fa-lg fa-youtube-play"></i> Функции над списками. Свёртки.](https://youtu.be/AwiOOkzZB_o)
 - Новые лекции уже на подходе!
 
 ### Практические задания
