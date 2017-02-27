@@ -54,35 +54,35 @@ _TBD_
 Распределение вариантов и индивидуальных частей отражено на вкладке «Нaskell (практическое задание)» в таблице
 [<i class="fa fa-lg fa-table"></i> Лисп и Haskell 2017](https://docs.google.com/spreadsheets/d/1uvXnqGwpSHLpRe5zZwvSFipsWZkbvU9HE3U6E-vTjH4/edit?usp=sharing).
 
-Прежде, чем приступать к выполнению практического задания, ознакомьтесь, пожалуйста, с <i class="fa fa-lg fa-book"></i> **Методическими указаниями**.
+Прежде, чем приступать к выполнению практического задания, ознакомьтесь, пожалуйста, с [<i class="fa fa-lg fa-book"></i> **Методическими указаниями**](howto.md).
 
 Варианты практического задания делятся на несколько групп.
 
 #### <i class="fa fa-lg fa-fw fa-flash"></i>&nbsp; Интерпретаторы <br/>
 
-- $$\lambda$$-исчисление
-- Диалект Лисп
+- [$$\lambda$$-исчисление](interpreters/lambda)
+- [Диалект Лисп](interpreters/lisp)
 
 #### <i class="fa fa-lg fa-fw fa-music"></i>&nbsp; Встроенные языки программирования <br/>
 
-- Генетика Менделя
-- Композиция музыкальных партий
+- [Генетика Менделя](DSLs/mendel)
+- [Композиция музыкальных партий](DSLs/music)
 
 #### <i class="fa fa-lg fa-fw fa-cubes"></i>&nbsp; Головоломки <br/>
 
-- Чайнворд
-- Японский кроссворд
-- Сокобан
-- Судоку
+- [Чайнворд](puzzles/chainword)
+- [Японский кроссворд](puzzles/nonogram)
+- [Сокобан](puzzles/sokoban)
+- [Судоку](puzzles/sudoku)
 
 #### <i class="fa fa-lg fa-fw fa-gamepad"></i>&nbsp; Игры <br/>
 
-- Астероиды
-- Настрольные игры
-- Бесконечный платформер
+- [Астероиды](games/asteroids)
+- [Настрольные игры](games/board)
+- [Бесконечный платформер](games/endless_running)
 
 #### <i class="fa fa-lg fa-fw fa-tint"></i>&nbsp; Моделирование <br/>
 
-- Моделирование жидкости
-- Игра «Жизнь»
+- [Моделирование жидкости](simulations/fluid)
+- [Игра «Жизнь»](simulations/life)
 
