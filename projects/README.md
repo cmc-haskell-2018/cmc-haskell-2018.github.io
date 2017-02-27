@@ -24,9 +24,25 @@ title: Практические задания — Haskell 2017
     - **25 апреля** — основные типы и функции (только сигнатуры);
     - **9 мая** — завершённый функционал.
 
-### Шаблоны проектов
+### Шаблон проекта
 
-_TBD_
+В организации [<i class="fa fa-lg fa-github"></i> cmc-haskell-2017](https://github.com/cmc-haskell-2017)
+представлено множество демонстрационных проектов, на которые можно ориентироваться при выполнении практического задания.
+
+Общий шаблон для проектов доступен в репозитории
+[<i class="fa fa-lg fa-github"></i> cmc-haskell-2017/project-template](https://github.com/cmc-haskell-2017/project-template).
+Важными частями проекта являются
+- директория `src/`, содержащая исходный код общей, библиотечной части; здесь вы будете писать всю логику проекта, а также реализовывать индивидуальные части;
+- директория `app/` с исходным кодом исполняемого модуля;
+- директория `test/` c автоматическими тестами для вашего проекта;
+- [файл Cabal](https://github.com/cmc-haskell-2017/project-template/blob/master/my-project.cabal) с описанием проекта, его зависимостей и опций компилятора;
+- [файл `stack.yaml`](https://github.com/cmc-haskell-2017/project-template/blob/master/stack.yaml) с указанием версии компилятора и зависимостей;
+- [файл README.md](https://github.com/cmc-haskell-2017/project-template#readme) с базовым описанием проекта, статусом автоматической сборки и указаниями по сборке и запуску.
+
+Остальные файлы — это дополнительные полезные настройки:
+- [файл `.gitignore`](https://github.com/cmc-haskell-2017/project-template/blob/master/.gitignore), указывающий Git не обращать внимания на временные файлы;
+- [файл Travis CI](https://github.com/cmc-haskell-2017/project-template/blob/master/.travis.yml) с указаниями для автоматической сборки проекта (только для GitHub);
+- [файл `.ghci`](https://github.com/cmc-haskell-2017/project-template/blob/master/.ghci) для более чистого вывода интерпретатора GHCi.
 
 ### GitHub
 
