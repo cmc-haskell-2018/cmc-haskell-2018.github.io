@@ -57,9 +57,9 @@ title: Композиция музыкальных партий — Haskell 2017
 
 Возможна генерации композиции в любом из следующих форматов:
 
-- `LilyPond <http://www.lilypond.org)>`_;
-- `MusicXML <http://www.musicxml.com)>`_;
-- `MIDI <http://www.ccarh.org/courses/253/handout/smf/>`_;
+- [LilyPond](http://www.lilypond.org);
+- [MusicXML](http://www.musicxml.com);
+- [MIDI](http://www.ccarh.org/courses/253/handout/smf/);
 - и др.
 
 Графический интерфейс (индивидуальная часть)
