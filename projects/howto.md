@@ -69,13 +69,13 @@ title: Методические указания — Haskell 2017
 Stack
 -----
 
-Для разработки проекта рекомендуется использовать `Stack <http://haskellstack.org>`_.
+Для разработки проекта рекомендуется использовать [Stack](http://haskellstack.org).
 
 Stack может установить нужную версию компилятора и необходимых библиотек.
 Для установки компилятора необходимо запустить команду ``stack setup``.
 
-Для установки зависимостей Stack использует `Stackage <https://www.stackage.org>`_ — стабильный репозиторий пакетов.
-Для выполнения практического задания рекомендуется использовать последний доступный `LTS Haskell <https://www.stackage.org/lts>`_.
+Для установки зависимостей Stack использует [Stackage](https://www.stackage.org) — стабильный репозиторий пакетов.
+Для выполнения практического задания рекомендуется использовать последний доступный [LTS Haskell](https://www.stackage.org/lts).
 
 Для сборки проекта используйте команду ``stack build`` или ``stack test``.
 
@@ -88,7 +88,7 @@ Stack может установить нужную версию компилят
 Haddock
 -------
 
-По возможности, используйте используйте разметку `Haddock <https://www.haskell.org/haddock/doc/html/ch03s08.html>`_
+По возможности, используйте используйте разметку [Haddock](https://www.haskell.org/haddock/doc/html/ch03s08.html)
 при написании комментариев в коде.
 Таким образом вы можете легко получить полноценную документацию кода вашего проекта.
 Вы можете локально собрать Haddock документацию, используя команду ``stack haddock``.
@@ -104,23 +104,16 @@ Haddock
 рекомендуется:
 
 - добавить файл ``README``:
-
   - с описанием проекта;
   - инструкциями по установке и запуску;
   - описанием реализованных возможностей;
-
-- оформить код в виде проекта `Stack <http://haskellstack.org>`_:
-
+- оформить код в виде проекта [Stack](http://haskellstack.org):
   - для сборки проекта должно быть достаточно выполнить команду ``stack build``;
   - запуск интерпретатора GHCi с автоматической загрузкой модулей проекта осуществляется командой ``stack ghci``;
   - запуск исполняего файла проекта — командой ``stack exec <имя программы>``;
   - тестирование проекта осуществляется командой ``stack test``;
-
-- если вы храните основную версию репозитория на GitHub_, вы можете использовать `Travis CI`_
+- если вы храните основную версию репозитория на [GitHub](https://github.com), вы можете использовать [Travis CI](http://docs.travis-ci.com)
   для автоматической сборки и тестирования вашего проекта.
-
-.. _GitHub:           https://github.com
-.. _Travis CI:        http://docs.travis-ci.com
 
 Рекомендации по выбору библиотек
 ================================
@@ -133,7 +126,7 @@ Haddock
 ---------------------
 
 Для синтаксического разбора рекомендуется использовать комбинаторные библиотеки —
-например, `Parsec <https://hackage.haskell.org/package/parsec>`_ или `attoparsec <https://hackage.haskell.org/package/attoparsec>`_.
+например, [Parsec](https://hackage.haskell.org/package/parsec) или [attoparsec](https://hackage.haskell.org/package/attoparsec).
 Parsec предоставляет более выразительные средства и лучше подходит для разбора исходного кода и конфигурационных файлов.
 ``attoparsec`` предлагает более простой интерфейс и меньше возможностей, но на несколько порядков лучше по производительности
 и подходит для разбора сетевых протоколов, логов, бинарных данных.
@@ -143,47 +136,47 @@ Parsec предоставляет более выразительные сред
 
 Для генерации объектного кода проще всего использовать существующий низкоуровневый
 язык программирования, из которого уже можно легко получить объектный код. К таким языкам
-относятся C, `C-- <https://ru.wikipedia.org/wiki/C-->`_ и язык `LLVM <https://ru.wikipedia.org/wiki/Low_Level_Virtual_Machine>`_.
+относятся C, [C––](https://ru.wikipedia.org/wiki/C--) и язык [LLVM](https://ru.wikipedia.org/wiki/Low_Level_Virtual_Machine).
 Последний часто используется в компиляторах, поскольку специально создан для этой цели.
 
 Генерация кода для LLVM на Haskell реализуется при помощи библиотеки
-`llvm-general <https://hackage.haskell.org/package/llvm-general>`_.
+[llvm-general](https://hackage.haskell.org/package/llvm-general).
 
 Графический интерфейс
 ---------------------
 
-Библиотека `gloss <https://hackage.haskell.org/package/gloss>`_ предоставляет простой и удобный интерфейс для работы с векторной 2D графикой.
+Библиотека [gloss](https://hackage.haskell.org/package/gloss) предоставляет простой и удобный интерфейс для работы с векторной 2D графикой.
 Для игр рекомендуется использование модулей ``Graphics.Gloss.Interface.Pure.Game`` или ``Graphics.Gloss.Interface.IO.Game``.
 Для моделирования можно использовать модули ``Graphics.Gloss.Interface.Pure.Simulate`` или ``Graphics.Gloss.Interface.IO.Simulate``.
 
-Для игр также стоит использовать библиотеку `gloss-game <http://hackage.haskell.org/package/gloss-game>`_,
+Для игр также стоит использовать библиотеку [gloss-game](http://hackage.haskell.org/package/gloss-game),
 которая предоставляет несколько удобных функций для работы со сценами.
 
 Клиент-серверная архитектура
 ----------------------------
 
 Для большинства практических заданий в качестве протокола общения между клиентом и сервером
-можно использовать `HTTP <https://ru.wikipedia.org/wiki/HTTP>`_.
-При реализации HTTP сервера рекомендуется использовать `архитектуру REST <https://ru.wikipedia.org/wiki/REST>`_.
+можно использовать [HTTP](https://ru.wikipedia.org/wiki/HTTP).
+При реализации HTTP сервера рекомендуется использовать [архитектуру REST](https://ru.wikipedia.org/wiki/REST).
 
 Существует множество web-фреймворков для реализации серверной части.
 Для выполнения практических заданий рекомендуется использовать использовать один из следующих:
-- `servant <http://haskell-servant.github.io>`_ — относительно простой в использовании и в то же время
+- [servant](http://haskell-servant.github.io) — относительно простой в использовании и в то же время
   мощный фреймворк для работы с REST API; в отличие от большинства других фреймворков покрывает не только
   серверную, но и клиентскую части, а так же автоматическую документацию, инструменты для тестирования,
   генерация клиентского кода для других языков программирования;
-- `spock <https://www.spock.li/tutorial/#hello-world>`_ — неплохой фреймворк с неплохой документацией;
+- [spock](https://www.spock.li/tutorial/#hello-world) — неплохой фреймворк с неплохой документацией;
   некоторые возможности требуют хорошенько разобраться, но для выполнения практического задания они необязательны;
-  использовать в паре с `wreq <http://www.serpentine.com/wreq/>`_ для клиентской части;
-- `scotty <https://github.com/scotty-web/scotty#scotty->`_ — наверное, самый простой фреймворк;
-  использовать в паре с `wreq <http://www.serpentine.com/wreq/>`_ для клиентской части;
+  использовать в паре с [wreq](http://www.serpentine.com/wreq/) для клиентской части;
+- [scotty](https://github.com/scotty-web/scotty#scotty-) — наверное, самый простой фреймворк;
+  использовать в паре с [wreq](http://www.serpentine.com/wreq/) для клиентской части;
 
-Для более тесной связи клиента и сервера можно использовать `протокол TCP <https://ru.wikipedia.org/wiki/TCP>`_.
-Соответствующая библиотека — `network-simple <https://hackage.haskell.org/package/network-simple>`_.
+Для более тесной связи клиента и сервера рекомендуется использовать [веб-сокеты](https://ru.wikipedia.org/wiki/WebSocket).
+Соответствующая библиотека — [websockets](https://hackage.haskell.org/package/websockets).
 
 Для передачи данных по сети рекомендуется использовать сериализацию/десериализацию данных. В случае HTTP
-предлагается использовать формат JSON (используя библиотеку `aeson <https://hackage.haskell.org/package/aeson>`_).
-В случае TCP — бинарное представление (используя библиотеку `binary <https://hackage.haskell.org/package/binary>`_).
+предлагается использовать формат JSON (используя библиотеку [aeson](https://hackage.haskell.org/package/aeson)).
+В случае веб-сокетов — бинарное представление (используя библиотеку [binary](https://hackage.haskell.org/package/binary)).
 
 Многопоточность
 ---------------
@@ -193,18 +186,18 @@ Parsec предоставляет более выразительные сред
 время потенциально длительных расчётов (например, в реализации ИИ) или сетевого взаимодействия.
 
 Для использования общей памяти между потоками одного приложения в Haskell используется
-`программная транзакционная память <https://ru.wikipedia.org/wiki/Программная_транзакционная_память>`_.
-Соответствующая библиотека `stm <https://hackage.haskell.org/package/stm>`_ входит в список стандартных пакетов.
-В практических заданиях достаточно использования `TVar <https://hackage.haskell.org/package/stm/docs/Control-Concurrent-STM-TVar.html>`_
-и, возможно, `TChan <https://hackage.haskell.org/package/stm/docs/Control-Concurrent-STM-TChan.html>`_.
+[программная транзакционная память](https://ru.wikipedia.org/wiki/Программная_транзакционная_память).
+Соответствующая библиотека [stm](https://hackage.haskell.org/package/stm) входит в список стандартных пакетов.
+В практических заданиях достаточно использования [TVar](https://hackage.haskell.org/package/stm/docs/Control-Concurrent-STM-TVar.html)
+и, возможно, [TChan](https://hackage.haskell.org/package/stm/docs/Control-Concurrent-STM-TChan.html).
 
-Для ознакомления с программной транзакционной памятью, рекомендуется прочтение статьи `Software Transactional Memory <https://www.schoolofhaskell.com/school/advanced-haskell/beautiful-concurrency/3-software-transactional-memory>`_.
+Для ознакомления с программной транзакционной памятью, рекомендуется прочтение статьи [Software Transactional Memory](https://www.schoolofhaskell.com/school/advanced-haskell/beautiful-concurrency/3-software-transactional-memory).
 
 База данных
 -----------
 
-Для работы с базой данных рекомендуется использовать библиотеку `persistent <https://hackage.haskell.org/package/persistent>`_.
+Для работы с базой данных рекомендуется использовать библиотеку [persistent](https://hackage.haskell.org/package/persistent).
 Эта библиотека предоставляет интерфейс, не зависящий от конкретной используемой СУБД и поддерживает
 как минимум PostgreSQL, SQLite, MySQL and MongoDB. Для сложных запросов (например, по нескольким таблицам)
-предлагается использовать библиотеку `esqueleto <https://hackage.haskell.org/package/esqueleto>`_, которая работает поверх библиотеки persistent.
+предлагается использовать библиотеку [esqueleto](https://hackage.haskell.org/package/esqueleto), которая работает поверх библиотеки persistent.
 
