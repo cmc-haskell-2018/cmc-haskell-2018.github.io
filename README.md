@@ -17,7 +17,7 @@ Haskell — это чистый функциональный язык прогр
     1. [<i class="fa fa-lg fa-youtube-play"></i> Ленивые вычисления.](https://youtu.be/MUfncxhDZK0)
     2. [<i class="fa fa-lg fa-youtube-play"></i> Функции над списками. Свёртки.](https://youtu.be/AwiOOkzZB_o)
 - Лекция 3
-    1. <i class="fa fa-lg fa-lock"></i> Алгебраические типы данных.
+    1. [<i class="fa fa-lg fa-youtube-play"></i> Алгебраические типы данных.](https://youtu.be/A9XX9Wv0faY)
     2. <i class="fa fa-lg fa-lock"></i> Классы типов.
     3. <i class="fa fa-lg fa-lock"></i> Функторы.
 - Лекция 4
