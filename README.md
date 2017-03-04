@@ -18,8 +18,8 @@ Haskell — это чистый функциональный язык прогр
     2. [<i class="fa fa-lg fa-youtube-play"></i> Функции над списками. Свёртки.](https://youtu.be/AwiOOkzZB_o)
 - Лекция 3
     1. [<i class="fa fa-lg fa-youtube-play"></i> Алгебраические типы данных.](https://youtu.be/A9XX9Wv0faY)
-    2. <i class="fa fa-lg fa-lock"></i> Классы типов.
-    3. <i class="fa fa-lg fa-lock"></i> Функторы.
+    2. [<i class="fa fa-lg fa-youtube-play"></i> Классы типов.](https://youtu.be/efwK257k47o)
+    3. [<i class="fa fa-lg fa-youtube-play"></i> Функторы.](https://youtu.be/k0nltRK0MUE)
 - Лекция 4
     1. <i class="fa fa-lg fa-lock"></i> Моноиды.
     2. <i class="fa fa-lg fa-lock"></i> Моноидная свёртка. Класс типов `Foldable`.
