@@ -21,8 +21,8 @@ Haskell — это чистый функциональный язык прогр
     2. [<i class="fa fa-lg fa-youtube-play"></i> Классы типов.](https://youtu.be/efwK257k47o)
     3. [<i class="fa fa-lg fa-youtube-play"></i> Функторы.](https://youtu.be/k0nltRK0MUE)
 - Лекция 4
-    1. <i class="fa fa-lg fa-lock"></i> Моноиды.
-    2. <i class="fa fa-lg fa-lock"></i> Моноидная свёртка. Класс типов `Foldable`.
+    1. [<i class="fa fa-lg fa-youtube-play"></i> Моноиды.](https://youtu.be/C0uRL-CMk1Q)
+    2. [<i class="fa fa-lg fa-youtube-play"></i> Моноидная свёртка. Класс типов `Foldable`.](https://youtu.be/JOYh5ngQzxU)
 - Новые лекции уже на подходе!
 
 ### Практические задания
