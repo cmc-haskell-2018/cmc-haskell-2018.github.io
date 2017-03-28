@@ -11,26 +11,26 @@ Haskell — это чистый функциональный язык прогр
 Все лекции доступны для просмотра [на YouTube](https://www.youtube.com/playlist?list=PLov3NSwpY86cfkfXyVroSZkHemxoAdnrd):
 
 - Лекция 1
-    1. [<i class="fa fa-lg fa-youtube-play"></i> Функции высшего порядка.](https://youtu.be/jNQVa5INdDk)
-    2. [<i class="fa fa-lg fa-youtube-play"></i> Свойства полиморфных функций.](https://youtu.be/41x5ZihxpOI)
+    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Функции высшего порядка.](https://youtu.be/jNQVa5INdDk)
+    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Свойства полиморфных функций.](https://youtu.be/41x5ZihxpOI)
 - Лекция 2
-    1. [<i class="fa fa-lg fa-youtube-play"></i> Ленивые вычисления.](https://youtu.be/MUfncxhDZK0)
-    2. [<i class="fa fa-lg fa-youtube-play"></i> Функции над списками. Свёртки.](https://youtu.be/AwiOOkzZB_o)
+    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Ленивые вычисления.](https://youtu.be/MUfncxhDZK0)
+    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Функции над списками. Свёртки.](https://youtu.be/AwiOOkzZB_o)
 - Лекция 3
-    1. [<i class="fa fa-lg fa-youtube-play"></i> Алгебраические типы данных.](https://youtu.be/A9XX9Wv0faY)
-    2. [<i class="fa fa-lg fa-youtube-play"></i> Классы типов.](https://youtu.be/efwK257k47o)
-    3. [<i class="fa fa-lg fa-youtube-play"></i> Функторы.](https://youtu.be/k0nltRK0MUE)
+    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Алгебраические типы данных.](https://youtu.be/A9XX9Wv0faY)
+    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Классы типов.](https://youtu.be/efwK257k47o)
+    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Функторы.](https://youtu.be/k0nltRK0MUE)
 - Лекция 4
-    1. [<i class="fa fa-lg fa-youtube-play"></i> Моноиды.](https://youtu.be/C0uRL-CMk1Q)
-    2. [<i class="fa fa-lg fa-youtube-play"></i> Моноидная свёртка.](https://youtu.be/JOYh5ngQzxU)
+    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Моноиды.](https://youtu.be/C0uRL-CMk1Q)
+    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Моноидная свёртка.](https://youtu.be/JOYh5ngQzxU)
 - Лекция 5
-    1. [<i class="fa fa-lg fa-youtube-play"></i> Аппликативные функторы.](https://youtu.be/ckp60IxNH9s)
+    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Аппликативные функторы.](https://youtu.be/ckp60IxNH9s)
 - Лекция 6
-    1. [<i class="fa fa-lg fa-lock"></i> Обход структур.](https://youtu.be/ckp60IxNH9s)
+    - <i class="fa fa-fw fa-lg fa-lock"></i> Обход структур.
 - Лекция 7
-    1. [<i class="fa fa-lg fa-lock"></i> Альтернативы.](https://youtu.be/ckp60IxNH9s)
+    - <i class="fa fa-fw fa-lg fa-lock"></i> Альтернативы.
 - Лекция 8
-    1. [<i class="fa fa-lg fa-lock"></i> Монады.](https://youtu.be/ckp60IxNH9s)
+    - <i class="fa fa-fw fa-lg fa-lock"></i> Монады.
 - Новые лекции уже на подходе!
 
 ### Практические задания
@@ -90,7 +90,9 @@ take :: Int -> [a] -> [a]
 ```
 
 Если вы работаете с проектом Stack, используйте `stack ghci` из корня проекта, чтобы автоматически
-подгрузить все модули этого проекта. Например, для проекта [`demo-galaxies`](https://github.com/cmc-haskell-2017/demo-galaxies):
+подгрузить все модули этого проекта.
+
+Например, для [<i class="fa fa-lg fa-github"></i> проекта `demo-galaxies`](https://github.com/cmc-haskell-2017/demo-galaxies):
 
 ```
 cd demo-galaxies
