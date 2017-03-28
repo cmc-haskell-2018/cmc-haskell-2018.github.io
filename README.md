@@ -11,7 +11,7 @@ Haskell — это чистый функциональный язык прогр
 Все лекции доступны для просмотра [на YouTube](https://www.youtube.com/playlist?list=PLov3NSwpY86cfkfXyVroSZkHemxoAdnrd):
 
 - Лекция 1
-    1. [<i class="fa fa-lg fa-youtube-play"></i> Функции высшего порядка. Функция `map`.](https://youtu.be/jNQVa5INdDk)
+    1. [<i class="fa fa-lg fa-youtube-play"></i> Функции высшего порядка.](https://youtu.be/jNQVa5INdDk)
     2. [<i class="fa fa-lg fa-youtube-play"></i> Свойства полиморфных функций.](https://youtu.be/41x5ZihxpOI)
 - Лекция 2
     1. [<i class="fa fa-lg fa-youtube-play"></i> Ленивые вычисления.](https://youtu.be/MUfncxhDZK0)
@@ -22,7 +22,15 @@ Haskell — это чистый функциональный язык прогр
     3. [<i class="fa fa-lg fa-youtube-play"></i> Функторы.](https://youtu.be/k0nltRK0MUE)
 - Лекция 4
     1. [<i class="fa fa-lg fa-youtube-play"></i> Моноиды.](https://youtu.be/C0uRL-CMk1Q)
-    2. [<i class="fa fa-lg fa-youtube-play"></i> Моноидная свёртка. Класс типов `Foldable`.](https://youtu.be/JOYh5ngQzxU)
+    2. [<i class="fa fa-lg fa-youtube-play"></i> Моноидная свёртка.](https://youtu.be/JOYh5ngQzxU)
+- Лекция 5
+    1. [<i class="fa fa-lg fa-youtube-play"></i> Аппликативные функторы.](https://youtu.be/ckp60IxNH9s)
+- Лекция 6
+    1. [<i class="fa fa-lg fa-lock"></i> Обход структур.](https://youtu.be/ckp60IxNH9s)
+- Лекция 7
+    1. [<i class="fa fa-lg fa-lock"></i> Альтернативы.](https://youtu.be/ckp60IxNH9s)
+- Лекция 8
+    1. [<i class="fa fa-lg fa-lock"></i> Монады.](https://youtu.be/ckp60IxNH9s)
 - Новые лекции уже на подходе!
 
 ### Практические задания
