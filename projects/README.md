@@ -94,13 +94,9 @@ title: Практические задания — Haskell 2018
 #### <i class="fa fa-lg fa-fw fa-cubes"></i>&nbsp; Головоломки <br/>
 
 - [Чайнворд](puzzles/chainword)
-- [Японский кроссворд](puzzles/nonogram)
-- [Сокобан](puzzles/sokoban)
-- [Судоку](puzzles/sudoku)
 
 #### <i class="fa fa-lg fa-fw fa-gamepad"></i>&nbsp; Игры <br/>
 
-- [Астероиды](games/asteroids)
 - [Настрольные игры](games/board)
 - [Бесконечный платформер](games/endless_running)
 
@@ -108,4 +104,3 @@ title: Практические задания — Haskell 2018
 
 - [Моделирование жидкости](simulations/fluid)
 - [Игра «Жизнь»](simulations/life)
-
