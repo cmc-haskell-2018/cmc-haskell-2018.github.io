@@ -10,40 +10,28 @@ Haskell — это чистый функциональный язык прогр
 
 Все лекции доступны для просмотра [на YouTube](https://www.youtube.com/playlist?list=PLov3NSwpY86cfkfXyVroSZkHemxoAdnrd):
 
-- Лекция 1
-    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Функции высшего порядка.](https://youtu.be/jNQVa5INdDk)
-    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Свойства полиморфных функций.](https://youtu.be/41x5ZihxpOI)
-- Лекция 2
-    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Ленивые вычисления.](https://youtu.be/MUfncxhDZK0)
-    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Функции над списками. Свёртки.](https://youtu.be/AwiOOkzZB_o)
-- Лекция 3
-    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Алгебраические типы данных.](https://youtu.be/A9XX9Wv0faY)
-    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Классы типов.](https://youtu.be/efwK257k47o)
-    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Функторы.](https://youtu.be/k0nltRK0MUE)
-- Лекция 4
-    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Моноиды.](https://youtu.be/C0uRL-CMk1Q)
-    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Моноидная свёртка.](https://youtu.be/JOYh5ngQzxU)
-- Лекция 5
-    - [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Аппликативные функторы.](https://youtu.be/ckp60IxNH9s)
-- Лекция 6
-    - <i class="fa fa-fw fa-lg fa-lock"></i> Обход структур.
-- Лекция 7
-    - <i class="fa fa-fw fa-lg fa-lock"></i> Альтернативы.
-- Лекция 8
-    - <i class="fa fa-fw fa-lg fa-lock"></i> Монады.
-- Новые лекции уже на подходе!
+- [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Функции высшего порядка.](https://youtu.be/jNQVa5INdDk)
+- [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Свойства полиморфных функций.](https://youtu.be/41x5ZihxpOI)
+- [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Ленивые вычисления.](https://youtu.be/MUfncxhDZK0)
+- [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Функции над списками. Свёртки.](https://youtu.be/AwiOOkzZB_o)
+- [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Алгебраические типы данных.](https://youtu.be/A9XX9Wv0faY)
+- [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Классы типов.](https://youtu.be/efwK257k47o)
+- [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Функторы.](https://youtu.be/k0nltRK0MUE)
+- [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Моноиды.](https://youtu.be/C0uRL-CMk1Q)
+- [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Моноидная свёртка.](https://youtu.be/JOYh5ngQzxU)
+- [<i class="fa fa-fw fa-lg fa-youtube-play"></i> Аппликативные функторы.](https://youtu.be/ckp60IxNH9s)
 
 ### Практические задания
 
-Сроки этапов сдачи практического задания на Haskell:
+Предварительные сроки этапов сдачи практического задания на Haskell:
 
 - Базовая (общая) часть:
-    - **28 марта** — основные типы и функции (только сигнатуры);
-    - **4 апреля** — реализация основных функций;
-    - **11 апреля** — рабочее приложение.
+    - **13 марта** — основные типы и функции (только сигнатуры);
+    - **20 марта** — реализация основных функций;
+    - **3 апреля** — рабочее приложение.
 - Индивидуальная часть:
-    - **25 апреля** — основные типы и функции (только сигнатуры);
-    - **9 мая** — завершённый функционал.
+    - **17 апреля** — основные типы и функции (только сигнатуры);
+    - **1 мая** — завершённый функционал.
 
 Методические указания и варианты доступны на [странице практических заданий](projects/README#практические-задания).
 
@@ -53,18 +41,17 @@ Haskell — это чистый функциональный язык прогр
 Баллы начисляются за:
 
 - работу в семестре на семинарах;
-- выполнение практического задания на Лиспе;
 - выполнение практического задания на Haskell.
 
 Все результаты будут внесены в таблицу
-[<i class="fa fa-lg fa-table"></i> Лисп и Haskell 2017](https://docs.google.com/spreadsheets/d/1uvXnqGwpSHLpRe5zZwvSFipsWZkbvU9HE3U6E-vTjH4/edit?usp=sharing).
+[<i class="fa fa-lg fa-table"></i> Haskell 2018](https://docs.google.com/spreadsheets/d/1mkxvczZbjOfz7QAGA1r8LThVHCGTIJjwv2AHcllYKQ8/edit?usp=sharing).
 
 ### Haskell Platform
 
 Для работы с Haskell в этом семестре рекомендуется [установить Haskell Platform](https://www.haskell.org/platform/) с официального сайта языка.
 На сайте есть инструкции по установке для каждой платформы (Linux, macOS, Windows). Haskell Platform содержит следующие инструменты:
 
-- компилятор GHC;
+- компилятор GHC (версии 8.2.2);
 - система сборки Cabal;
 - [утилита Stack](http://docs.haskellstack.org/) для разработки проектов;
 - стандартные и часто-используемые библиотеки.
@@ -110,9 +97,9 @@ stack ghci
 
 Общие группы:
 
-- [<i class="fa fa-lg fa-envelope"></i> cmc-haskell-2017@googlegroups.com](https://groups.google.com/d/forum/cmc-haskell-2017) — список рассылки курса;
-- [<i class="fa fa-lg fa-telegram"></i> Haskell 2017](https://telegram.me/joinchat/AAAAAAz6vbLO35c7VmG7pQ) — группа в Telegram;
-- [<i class="fa fa-lg fa-github"></i> cmc-haskell-2017](https://github.com/cmc-haskell-2017) — материалы курса и практические задания.
+- [<i class="fa fa-lg fa-envelope"></i> cmc-haskell-2018@googlegroups.com](https://groups.google.com/d/forum/cmc-haskell-2018) — список рассылки курса;
+- [<i class="fa fa-lg fa-telegram"></i> Haskell 2018](https://telegram.me/joinchat/B8HofBJKpCsEI0YH78_XFw) — группа в Telegram;
+- [<i class="fa fa-lg fa-github"></i> cmc-haskell-2018](https://github.com/cmc-haskell-2018) — материалы курса и практические задания.
 
 Контакты преподавателя:
 
