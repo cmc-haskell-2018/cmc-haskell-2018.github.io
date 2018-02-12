@@ -1,5 +1,5 @@
 ---
-title: Моделирование жидкости — Haskell 2017
+title: Моделирование жидкости — Haskell 2018
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
