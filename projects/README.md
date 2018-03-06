@@ -108,3 +108,8 @@ title: Практические задания — Haskell 2018
 
 - [Моделирование жидкости](simulations/fluid)
 - [Игра «Жизнь»](simulations/life)
+
+#### Другое <br/>
+
+- <i class="fa fa-cog"></i>&nbsp; [Чат-бот](other/chat_bot)
+- <i class="fa fa-cog"></i>&nbsp; [Блокчейн](other/blockchain)
