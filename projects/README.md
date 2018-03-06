@@ -94,10 +94,10 @@ title: Практические задания — Haskell 2018
 #### <i class="fa fa-lg fa-fw fa-cubes"></i>&nbsp; Головоломки <br/>
 
 - [Чайнворд](puzzles/chainword)
-- [Головоломки на оптических иллюзиях](puzzles/illusion)
-- [Головоломки с нелинейным временем](puzzles/time)
-- [Транспорт](puzzles/transport)
-- [Водопроводчик](puzzles/pipes)
+- <i class="fa fa-cog"></i>&nbsp; [Головоломки на оптических иллюзиях](puzzles/illusion)
+- <i class="fa fa-cog"></i>&nbsp; [Головоломки с нелинейным временем](puzzles/time)
+- <i class="fa fa-cog"></i>&nbsp; [Транспорт](puzzles/transport)
+- <i class="fa fa-cog"></i>&nbsp; [Водопроводчик](puzzles/pipes)
 
 #### <i class="fa fa-lg fa-fw fa-gamepad"></i>&nbsp; Игры <br/>
 
