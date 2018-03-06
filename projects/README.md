@@ -97,6 +97,7 @@ title: Практические задания — Haskell 2018
 - [Головоломки на оптических иллюзиях](puzzles/illusion)
 - [Головоломки с нелинейным временем](puzzles/time)
 - [Транспорт](puzzles/transport)
+- [Водопроводчик](puzzles/pipes)
 
 #### <i class="fa fa-lg fa-fw fa-gamepad"></i>&nbsp; Игры <br/>
 
