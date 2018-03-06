@@ -94,6 +94,7 @@ title: Практические задания — Haskell 2018
 #### <i class="fa fa-lg fa-fw fa-cubes"></i>&nbsp; Головоломки <br/>
 
 - [Чайнворд](puzzles/chainword)
+- [Головоломки на оптических иллюзиях](puzzles/illusion)
 
 #### <i class="fa fa-lg fa-fw fa-gamepad"></i>&nbsp; Игры <br/>
 
