@@ -103,6 +103,8 @@ title: Практические задания — Haskell 2018
 
 - [Настрольные игры](games/board)
 - [Бесконечный платформер](games/endless_running)
+- <i class="fa fa-cog"></i>&nbsp; [Арканоид](games/arkanoid)
+- <i class="fa fa-cog"></i>&nbsp; [Башенная защита](games/tower_defense)
 
 #### <i class="fa fa-lg fa-fw fa-tint"></i>&nbsp; Моделирование <br/>
 
