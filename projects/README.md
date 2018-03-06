@@ -96,6 +96,7 @@ title: Практические задания — Haskell 2018
 - [Чайнворд](puzzles/chainword)
 - [Головоломки на оптических иллюзиях](puzzles/illusion)
 - [Головоломки с нелинейным временем](puzzles/time)
+- [Транспорт](puzzles/transport)
 
 #### <i class="fa fa-lg fa-fw fa-gamepad"></i>&nbsp; Игры <br/>
 
