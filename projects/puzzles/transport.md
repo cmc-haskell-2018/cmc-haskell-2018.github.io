@@ -15,4 +15,4 @@ title: Транспорт — Haskell 2018
 
 ![Minimetro](images/minimetro.gif)
 
-![Flight Control](images/flight_control.gif)
+![Flight Control](images/flight_control.jpg)
